@@ -16,7 +16,7 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+bash: syntax error near unexpected token `newline'
 
 
 ==========
@@ -26,19 +26,19 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
-
+bash: syntax error near unexpected token 'newline'
+//The same thing happens sadly, and I don't know why
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
-
+bash: syntax error near unexpected token `newline'
+//WHY DOES THIS KEEP HAPPENING!
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+bash: syntax error near unexpected token `newline'
 
 
 ==========
@@ -48,8 +48,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+bash: syntax error near unexpected token `newline'
+//I'm not joking when I'm saying that it keeps happening
 
 ==========
 4.  Type:
@@ -58,8 +58,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
+//Something NEW!?!
 
 ==========
 5.  Type:
@@ -68,7 +68,9 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+bash: syntax error near unexpected token `<'
+//Nothing...
+//Another syntax error...
 
 
 ==========
@@ -78,7 +80,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+bash: syntax error near unexpected token `<'
 
 
 ==========
@@ -88,7 +90,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+bash: syntax error near unexpected token `<'
 
 
 ==========
@@ -98,37 +100,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+Keyboard UP ARROW
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+"b" "a"
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+I don't think there is a way to auto-complete a command
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
-
+$ ls
+^
+//This one!
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Show me all contents in "Desktop"
 
 
 ==========
@@ -138,7 +141,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+bash: syntax error near unexpected token `newline'
 
 
 ==========
@@ -148,7 +151,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+bash: syntax error near unexpected token `<'
 
 
 ==========
@@ -158,3 +161,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls: cannot access 'Desktop': No such file or directory
